@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tao Terapias</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/custom.css" rel="stylesheet" >
+  <script src="js/jquery-2.1.0.min.js"></script>
+  <!-- Fontawesome -->
+  <link href="css/fontawsome.css" rel="stylesheet">
+
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <body class="bg">
+      <div id="fb-root"></div>
+      <div class="navbar-custom navbar-default-custom navbar-fixed-top-custom" role="navigation">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-2 col-sm-3 col-lg-2">	
+              <div class="navbar-header">
+                <a class="searchbychar navbar-toggle btn btn-default" href="#" data-target="contato" onclick="return false"><i class="fa fa-phone"></i></a>
+                <a class="searchbychar navbar-toggle btn btn-default" href="#" data-target="localizacao" onclick="return false"><i class="fa fa-location-arrow"></i></a>
+                <a class="searchbychar navbar-toggle btn btn-default" href="#" data-target="terapias" onclick="return false"><i class="fa fa-heart-o"></i></a>
+                <a class="searchbychar navbar-toggle btn btn-danger" href="#" data-target="inicio" onclick="return false"><i class="fa fa-home"></i></a>                <a class="logotipo" href="/" border=0>
+                  <img  src="img/logo.png" alt="Tao Terapias" border="0" />
+                </a>  
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+
+            </div>
+            <div class="navbar-collapse collapse navbar1-collapse">
+              <div class="col-lg-7 col-md-7 col-sm-9 col-xs-12">
+                <div class="face-logo-padding">
+                  <img src="img/facebook.png" class="face-logo" />
+                </div>
+                <form class="navbar-form navbar-right">
+                  <div id="searchbycharacter">
+                    <ul class="nav nav-pills-custom">
+                      <li class="active"><a class="searchbychar" href="#" data-target="inicio" onclick="return false">Inicio</a></li>
+                      <li><a class="searchbychar" href="#" data-target="terapias" onclick="return false">Terapias</a></li>
+                      <li><a class="searchbychar" href="#" data-target="localizacao" onclick="return false">Localização</a></li>
+                      <li><a class="searchbychar" href="#" data-target="contato" onclick="return false">Contato</a></li>
+                      <li></li>
+                      <li></li>
+                    </ul>
+
+                  </div>
+                </form>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- CSS Trick para resolução em PC,Tablet e celular !-->
+    <div class="sizeLG hidden-md hidden-sm">
+    </div>
+    <div class="sizeMD hidden-lg">
+    </div>
+    <div class="sizeSM hidden-lg hidden-md hidden-sm">
+    </div>
+    <!-- Fim do Trick !-->
+
+    <div class="jumbotron" id="inicio">
+      <div class="container">
+        <div class="col-lg-12">
+          <div class="intro-message">
+            <h1 class="hidden-xs"> Conheça as melhores terapias de Moema </h1>
+            <h4 class="hidden-md hidden-lg hidden-sm">Conheça as melhores terapias de Moema</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container">
+      <div id="terapias"></div>
+      
+      <legend ><i class="fa fa-heart-o"></i> Nossas terapias</legend>
+      
+      <div class="col-lg-4 col-md-4">
+        <h4 >Shiatsu</h4>
+        <p class="text-muted">A TAO lhe oeferece o verdadeiro shiatsu que promove o desbloqueio dos pontos e canais de energias(meridianos),estimulando ou sedando.Recupera a harmonia,combate o nervosismo,irritabilidade,insônia,estresse e T.P.M,etc. A eficácia no combate ás dores na coluna, L.E.R, dores articulaes, bursistes, tendinites, enxaquecas,etc. Está na atuação direta dos músculos que tinificados eliminam as fadigas.</p>
+      </div>
+      
+      <div class="col-lg-4 col-md-4">
+          <h4>Drenagem Linfática</h4>
+          <p class="text-muted">A Drenagem Linfática tem efeitos comprovados sobre a eliminação de toxinas do organismo e o aumento da captação de oxigênio pelos tecidos.<br>Reduzindo inchaços e edemas, suas aplicações mais usuais são no tratamento estético corporal e facial, bem como nos casos de edema pós-cirúrgico e mastectomia.</p>
+      </div>
+      
+      <div class="col-lg-4 col-md-4">
+        <h4>Reflexologia</h4>
+        <p class="text-muted">Identidica, previne e trata dos distúrbios orgânicos e dos desequilibrios emocionais, através de estímulos por pressão.<br> Feitos com a palma da mão e polegares,nas terminações nervosas em postos específicos dos pés.<br><br><br><br><br></p>
+      </div>
+
+      <div class="col-lg-4 col-md-4">
+        <h4>Massagem Clássica</h4>
+        <p class="text-muted">Também conhecida como massagem Sucéca, tem origem Ocidental. É aplicada com creme ou oléo e visa principalemnte o relaxamento físico. <br> Tendo como benefícios o aumento do fluxo sanguíneo,relaxamento muscular,alívio na ansiedade,alívio de dores e tensões e sensação de bem-estar.</p>
+      </div>
+      
+      <div class="col-lg-4 col-md-4">
+        <h4>Massagem Ayurvédica</h4>
+        <p class="text-muted">Nasceu na milenar cltura das "Vedas" na Índia. <br>É um sistema de cura que visa não apenas melhorar a sáude dos orgãos e dos sistemas do corpo,mas a cura no sentido mais amplo.Um dos principais  objetivos desse sistema de cura é a integração da mente,corpo,que o homem morderno perdeu.</p>
+      </div>
+      
+      <div class="col-lg-4 col-md-4">
+        <h4>Quick Shiatsu</h4>
+        <p class="text-muted">É uma das soluções de relaxamento oriental que pode ser realizada em diferentes lugares,como empresas,shoppings,eventos,bancos,etc. <br> É uma massafem feita em uma cadeira própria com duração de 15 a 20 minutos.Ideal para aquelas que dispõem pouco tempo livre,é recomenda para problemas de LER(Lesão por esforço repetitivo,estresse,dor nos ombros,dores nos olhos,cansaço,ansiedade,dores de caebeça,falta de concentração e memória, produtividade e desempenho fisico e intelectual,etc</p>
+        <div id="localizacao"></div>
+      </div>
+
+      <legend><i class="fa fa-picture-o"></i> Instalações</legend>
+
+      <div class="row">
+        <div class="col-lg-4 col-md-4">
+          <center>
+            <img src="img/entrada.jpg" data-src="/holder.js/100%x180" class="img-thumbnail" alt="...">
+          </center>
+          <br>
+        </div>
+
+        <div class="col-lg-4 col-md-4">
+          <center>
+            <img src="img/recepcao.jpg" data-src="/holder.js/100%x180" class="img-thumbnail" alt="...">
+          </center>
+          <br>
+        </div>
+
+        <div class="col-lg-4 col-md-4">
+          <center>
+            <img src="img/atendimento.jpg" data-src="/holder.js/100%x180" class="img-thumbnail" alt="...">
+          </center>
+        </div>
+      </div>
+      
+      <br><br>
+      <legend ><i class="fa fa-location-arrow"></i> Localização</legend>
+      <strong class="text-danger">Avenida Agami,249
+      Moema, São Paulo, SP 04552-000</strong>
+      <div class="map">
+        <iframe width="100%" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msa=0&amp;msid=206708415730761245806.0004fa23a5e1640838cfc&amp;ie=UTF8&amp;t=h&amp;ll=-23.599848,-46.660856&amp;spn=0.004719,0.006866&amp;z=17&amp;output=embed"></iframe><br /><small>Visualizar <a href="https://maps.google.com/maps/ms?msa=0&amp;msid=206708415730761245806.0004fa23a5e1640838cfc&amp;ie=UTF8&amp;t=h&amp;ll=-23.599848,-46.660856&amp;spn=0.004719,0.006866&amp;z=17&amp;source=embed" style="color:#0000FF;text-align:left">TAO Terapias</a> em um mapa maior</small>
+        <div id="contato"></div>
+      </div>
+
+      <br><br>
+
+      <legend ><i class="fa fa-phone"></i> Contatos</legend>
+
+        <div class="row">
+          <div class="col-lg-6 col-md-6">
+            <address>
+              <strong>Tao Terapias</strong><br>
+              Avenida Agami,249<br>
+              Moema, São Paulo, SP 04552-000<br>
+              <abbr title="Telefone">Tel:</abbr> (11) 5051-1773  /
+              <abbr title="Celular">Cel:</abbr> (11) 97063-8548
+            </address>
+
+            <address>
+              <strong>E-mail</strong><br>
+              <a href="mailto:#">teste@a.com</a>
+            </address>  
+          </div>
+
+          <div class="col-lg-6 col-md-6">
+
+            <form role="form">
+              <div class="form-group">
+                <label for="exampleInputEmail1">Nome</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Nome">
+              </div>
+        
+              <div class="form-group">
+                <label for="exampleInputEmail1">E-mail</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="E-mail">
+              </div>
+        
+              <div class="form-group">
+                <label for="exampleInputEmail1">Mensagem</label>
+                <textarea rows="2" class="form-control"></textarea>
+              </div>
+              
+              <div class="btn btn-danger pull-right"><i class="fa fa-envelope"></i> Enviar mensagem</div>
+            
+            </form>
+          
+          </div>
+        
+        </div>
+
+
+
+        <br><br>
+
+        <hr>
+        <div class="pull-right text-muted">Tao Terapias</div>
+        <br><br>
+      
+      </div>
+    </body>
+</html>
+
+            <script>
+              $( '.searchbychar' ).on('click', function(event) {
+                event.preventDefault();
+                var target = "#" + $(this).data('target');
+                $('html, body').animate({
+                  scrollTop: $(target).offset().top
+                }, 2000);
+              });
+            </script>
